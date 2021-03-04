@@ -11,6 +11,6 @@ const countries = [
     'JAPAN',
     'KENYA'
   ]  
-var result = countries.map(country => [country, country.substring(0, 3), country.length])
+var result = countries.map(country => [country.toLowerCase(), country.substring(0, 3), country.length])
 console.log(countries);
 console.log(result);
